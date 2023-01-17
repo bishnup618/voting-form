@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: -moz-linear-gradient(yellow);
+  text-align: center;
+  color: green;
+  font-size: 15px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 25px;
+}
+
+.languages {
+  color: black;
+  height: 400px;
+  width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.language {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: white;
+  border: 1px solid green;
+  margin: 2px;
+}
+
+.voteCount {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language button {
+  padding: 10px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.language button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
